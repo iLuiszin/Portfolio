@@ -1,0 +1,16 @@
+.btn {
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #f0f8ff;
+    color: #f0f8ff;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transform: translateY(-7px);
+    background: #010B28;
+}
