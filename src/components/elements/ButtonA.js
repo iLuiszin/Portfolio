@@ -2,11 +2,11 @@ import styles from './ButtonA.module.css'
 
 function ButtonA({ text, link }) {
   return (
-    <section>
+    <div>
       <a href={link}>
         <button className={styles.btn}>{text}</button>
       </a>
-    </section>
+    </div>
   )
 }
 
